@@ -126,5 +126,12 @@ python bot.py
 ```
 10. Discord上でBotを使用して動作を確認する
 
+## アセットデータについて
+`assets`フォルダ内に含まれる画像・音声データは私自身がプライベートで作成したデータになります。
+本リポジトリの動作確認などの範囲内でご利用ください。
+無断で二次配布や改変を行い生じたトラブル等への保証は一切出来かねますのでご注意ください。
+- `image.png`: Stable Diffusionで学習・生成させたイラスト
+- `sound.ogg`: JR東日本 発車メロディ (JR-SH1-1)の耳コピ
+
 ## 参考
 - [Discord.py公式ドキュメント](https://discordpy.readthedocs.io/ja/stable/)
