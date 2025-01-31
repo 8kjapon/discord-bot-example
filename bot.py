@@ -15,7 +15,7 @@ class Bot(commands.Bot):
         super().__init__(command_prefix='!', intents=discord.Intents.all())
         
         # Cogのリスト
-        self.initial_extensions = ['cogs.message', 'cogs.ui', 'cogs.modal']
+        self.initial_extensions = ['cogs.message', 'cogs.ui', 'cogs.modal', 'cogs.voice']
 
     async def setup_hook(self):
         # Cogの読み込み
